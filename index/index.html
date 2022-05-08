@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Password Generator 0.1</title>
+        <title>Password Generator</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="index.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4ece37f117.js" crossorigin="anonymous"></script> 
     </head>
     <body>
         <div class="container">
-            <div>
-                <span>Password goes here!</span>
-            </div>
-            <div>
-                <span>Choose your password length: <input type="range" min="8" max="32"</span>
-            </div>
-            <div></div>
+            <section id="section-1">   
+                <h1 id="title-h1">Generate a <br><span>random password</span></h1>
+                <p>Never use an insecure password again.</p>
+                <button id="generate-btn"><i class="fa-solid fa-bolt"></i> Generate passwords</button>
+                <hr>
+            </section>
+            
+            <section id="section-2">
+                
+                <div class="result-div">
+                    <button id="result-btn1" class="result-btn">***</button>
+                    <button id="result-btn2" class="result-btn">***</button>
+                </div>
+                <div class="result-div">   
+                    <button id="result-btn3" class="result-btn">***</button>
+                    <button id="result-btn4" class="result-btn">***</button>
+                </div>
+            </section>
         </div>
+    <script src="index.js"></script>
     </body>
 </html>
-
-

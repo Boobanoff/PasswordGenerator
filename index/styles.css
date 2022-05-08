@@ -1,0 +1,111 @@
+body {
+    background-color: #1c1c1c;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 5px;
+    color: #d5d4d8; 
+}
+
+span {
+    color: #4adf86;
+}
+
+hr {
+    margin: 0 auto;
+    color: #273549;
+    border: 1px solid #273549;
+}
+.container {
+    background-color: #1f2937;
+    width: 550px;
+    height: 500px;
+    margin: auto auto;
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+
+}
+
+#section-1 {
+    padding: 20px;
+}
+
+#section-2 {
+    margin: 0 auto;
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+#generate-btn {
+    background-color: #10b981;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 10px;
+    margin: 30px 0 25px 0;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 223px;
+    height: 42px;
+}
+
+#generate-btn:active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.result-div {
+    display: flex;
+    margin: 0 5px 0 5px;
+    justify-content: space-around;
+}
+
+.result-btn {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    align-content: center;
+    padding: 5px 10px;
+    margin: 13.5px;
+    color: #1f2937;
+    background-color: #273549;
+    /* width: 211px; */
+    height: 39px;
+    flex-grow: 1;
+}
+
+.generated-pass-btn {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    align-content: center;
+    padding: 5px 10px;
+    margin: 13.5px;
+    color: #55f991;
+    background-color: #273549;
+    /* width: 211px; */
+    height: 39px;
+    flex-grow: 1;
+}
+
+.generated-pass-btn:active {
+    background-color: whitesmoke;
+    color: black;
+}
