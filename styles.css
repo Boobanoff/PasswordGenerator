@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: #1c1c1c;
     color: whitesmoke;
@@ -29,29 +34,33 @@ hr {
 }
 .container {
     background-color: #1f2937;
-    width: 550px;
-    height: 500px;
-    margin: auto auto;
-    position: absolute;
-    top: 10vh;
-    left: 30vw;
-
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 450px;
+    max-width: 500px;
+    max-height: 450px;
+    margin: 50px auto;
 }
 
+
 #section-1 {
+    height: 100%;
     padding: 20px;
+    flex-grow: 1;
 }
 
 #section-2 {
     margin: 0 auto;
     width: 100%;
-    /* padding: 20px; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-grow: 1;
 }
-
-
 
 #generate-btn {
     background-color: #10b981;
@@ -62,8 +71,8 @@ hr {
     color: #ffffff;
     font-size: 18px;
     letter-spacing: 1px;
-    width: 223px;
-    height: 42px;
+    /* width: 223px; */
+    /* height: 42px; */
 }
 
 #generate-btn:active {
@@ -82,11 +91,11 @@ hr {
     border: none;
     text-align: center;
     align-content: center;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     margin: 13.5px;
     color: #1f2937;
     background-color: #273549;
-    /* width: 211px; */
+    width: 211px;
     height: 39px;
     flex-grow: 1;
 }
@@ -100,7 +109,7 @@ hr {
     margin: 13.5px;
     color: #55f991;
     background-color: #273549;
-    /* width: 211px; */
+    width: 211px;
     height: 39px;
     flex-grow: 1;
 }
