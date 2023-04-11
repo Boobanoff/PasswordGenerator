@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: #1f2937;
+    background-color: lightgray;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -36,8 +36,8 @@ hr {
     border: 1px solid #334c69;
     border-radius: 20px;
     background-color: #213143;
-    width: 100vw;
-    height: 100%;
+    width: 550px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     min-width: 500px;
@@ -65,16 +65,15 @@ hr {
 }
 
 #generate-btn {
-    background-color: #10b981;
+    background-color: #10B981;
     border-radius: 5px;
     border-style: none;
-    padding: 5px 10px;
+    padding: 9px 17px;
     margin: 30px 0 25px 0;
     color: #ffffff;
     font-size: 18px;
     letter-spacing: 1px;
-    /* width: 223px; */
-    /* height: 42px; */
+
 }
 
 #generate-btn:active {
@@ -112,8 +111,8 @@ hr {
     align-content: center;
     padding: 5px 10px;
     margin: 13.5px;
-    color: #55f991;
-    background-color: #273549;
+    color: #4ADF86;
+    background-color: #1F2937;
     width: 211px;
     height: 39px;
     flex-grow: 1;
